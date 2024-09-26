@@ -109,7 +109,7 @@ PlayMode::PlayMode() {
 	rooms[self_inspect_index].connecting_rooms = {maze_start_index, poinsoned_index, poinsoned_index, poinsoned_index};
 	rooms[maze_start_index].connecting_rooms = {infinite_maze_begin_index, poinsoned_index, sitting_index, poinsoned_index};
 	rooms[sitting_index].connecting_rooms = {maze_start_index, poinsoned_index, poinsoned_index, poinsoned_index};
-	rooms[infinite_maze_begin_index].connecting_rooms = {infinite_maze_begin_index, infinite_maze_inspect_index, infinite_maze_begin_index, infinite_maze_begin_index};
+	rooms[infinite_maze_begin_index].connecting_rooms = {infinite_maze_begin_index, infinite_maze_begin_index, infinite_maze_inspect_index, infinite_maze_begin_index};
 	rooms[infinite_maze_middle_index].connecting_rooms = {infinite_maze_begin_index, infinite_maze_begin_index, infinite_maze_begin_index, infinite_maze_begin_index};
 	rooms[infinite_maze_inspect_index].connecting_rooms = {infinite_maze_begin_index, infinite_maze_begin_index, infinite_maze_begin_index, infinite_maze_begin_index};
 
