@@ -14,7 +14,7 @@ Screen Shot:
 
 How To Play:
 
-Make sure to inspect closely if you are stuck.
+Use arrow keys to make your choices! Make sure to inspect closely if you are stuck.
 
 Sources: https://fonts.google.com/specimen/Lato
 
