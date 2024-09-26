@@ -1,12 +1,12 @@
-# (TODO: your game's title)
+# Stuck in Heaven?
 
-Author: (TODO: your name)
+Author: Weiwen "Andy" Jiang
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: You, the hamster wakes up from a coma and discovers that you are trapped. You have to find a way out and resist the urge to eat the walls and floor made of carrots.
 
-Text Drawing: (TODO: how does the text drawing in this game work? Is text precomputed? Rendered at runtime? What files or utilities are involved?)
+Text Drawing: I stored the 128 most common characters of the font as a texture and I use the glyph spacing from free type to individually space each character. They are all rendered dynamically.
 
-Choices: (TODO: how does the game store choices and narrative? How are they authored? Anything nifty you want to point out?)
+Choices: Each room is stored in its own struct and the choices (indices to the next rooms) are stored in an array since the player use the arrow keys to make the choices. For the maze and the key, I have special code that would redirect the player if the key is correct or incorrect.
 
 Screen Shot:
 
@@ -14,9 +14,9 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Make sure to inspect closely if you are stuck.
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: https://fonts.google.com/specimen/Lato
 
 This game was built with [NEST](NEST.md).
 

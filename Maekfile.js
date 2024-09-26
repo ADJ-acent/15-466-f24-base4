@@ -132,12 +132,14 @@ const game_names = [
 	maek.CPP('PlayMode.cpp'),
 	maek.CPP('main.cpp'),
 	maek.CPP('LitColorTextureProgram.cpp'),
+	maek.CPP('FontRenderProgram.cpp'),
+	maek.CPP('Font.cpp'),
 	//maek.CPP('ColorTextureProgram.cpp'),  //not used right now, but you might want it
 	maek.CPP('Sound.cpp'),
 	maek.CPP('load_wav.cpp'),
 	maek.CPP('load_opus.cpp')
 ];
-
+load_save_png = maek.CPP('load_save_png.cpp');
 const common_names = [
 	maek.CPP('data_path.cpp'),
 	maek.CPP('PathFont.cpp'),
@@ -146,7 +148,7 @@ const common_names = [
 	maek.CPP('ColorProgram.cpp'),
 	maek.CPP('Scene.cpp'),
 	maek.CPP('Mesh.cpp'),
-	maek.CPP('load_save_png.cpp'),
+	load_save_png,
 	maek.CPP('gl_compile_program.cpp'),
 	maek.CPP('Mode.cpp'),
 	maek.CPP('GL.cpp'),
@@ -166,6 +168,7 @@ const show_scene_names = [
 ];
 
 const freetype_test_names = [
+	load_save_png,
 	maek.CPP('freetype-test.cpp')
 ];
 
